@@ -139,34 +139,34 @@
 
 .ojos {
 	width: 29px;
-	height: 27px;
+	height: 29px;
 	border-radius: 50%;
 	z-index: 10;
 	background-color: #2C0950;
-	margin:  -65px -50px 0 0;
+	margin:  -66px -50px 0 0;
 	box-shadow: 47px 3px 0 -7px #2C0950,
 							inset 3px 2px 0 6px white,
 				 			44px 1px 0 -1px white;
 }
 
 .parpado {
-	width: 33px;
+	width: 30px;
 	height: 27px;
 	border-radius: 50%;
 	z-index: 12;
 	border-top: 10px solid #957a5c;
-	margin:  -68px -52px 0 0;
+	margin:  -70px -50px 0 0;
 	transform: rotate(-5deg);
 }
 
 .parpado.dos {
-	width:  29px;
-	margin:  -35px -138px 0 0;
+	width:  27.7px;
+	margin:  -36px -138px 0 0;
 	transform: rotate(-5deg);
 }
 
 .boca {
-	width:  50px;
+	width:  45px;
 	height: 3px;
 	border-width:  7px 0 7px 0;
 	border-color:  red transparent tomato transparent;
@@ -175,6 +175,7 @@
 	border-radius: 50%;
 	z-index: 12;
 	margin: 50px -85px 0 0;
+	transform: rotateZ(3deg);
 }
 
 .aleta {
@@ -210,7 +211,8 @@
 
 .mechon.dos {
 	margin: -20px 40px 0 0;
-	box-shadow:  -30px 70px 0 8px tomato;
+	box-shadow:  -30px 70px 0 8px tomato,
+							-38px 55px 0 8px tomato;
 	transform:  rotate(20deg);
 }
 
@@ -226,7 +228,7 @@
 }
 
 .mechon.cinco {
-	margin: -15px -90px 0 0;
+	margin: -12px -90px 0 0;
 	height: 60px;
 	width:  50px;
 	box-shadow: none;
@@ -241,4 +243,40 @@
 	border-left: 10px solid #E8CF00;
 	z-index: 15;
 	transform:  rotate(9deg);
+}
+
+.oreja {
+	width: 25px;
+	height: 40px;
+	background-color: #b17a5c;
+	border-left: 1px solid  #857a5c;
+	border-radius: 50%;
+	z-index: 20;
+	margin: -279px 80px 0 0;
+	box-shadow: inset 6px -12px 0 -10px #857a5c;
+}
+
+.oreja.dos {
+	margin: -48px 75px 0 0;
+	border-left: none;
+	border-right: 1px solid  #857a5c;
+	box-shadow: none;
+	transform: scale(0.7) rotate(-25deg);
+}
+
+.oreja.lobulo {
+	margin: -12px 77px 0 0;
+	border: none;
+	border: solid #857a5c;
+	border-width:  0 0 0 5px;
+	transform: scale(0.28) rotate(-35deg);
+}
+
+.aro {
+	width: 1px;
+	height: 1px;
+	background-color: white;
+	box-shadow: 0 0 1px 1px gold;
+	margin: -20px 74px 0 0;
+	z-index: 20;
 }
