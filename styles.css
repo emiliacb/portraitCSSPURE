@@ -48,7 +48,7 @@
 .face1 {
 	margin-top: -270px;
 	margin-left: 1px;
-	background-color:  #b17a5c;
+	background-color: #c8a18c;
 	width:  160px;
 	height:  160px;
 	border-radius: 50%;
@@ -58,7 +58,7 @@
 
 .face2 {
 	margin: -100px 0 0 30px;
-	background-color:  #b17a5c;
+	background-color:  #c8a18c;
 	width:  100px;
 	height:  140px;
 	border-radius: 0  0 40px 20px;
@@ -68,7 +68,7 @@
 
 .noise {
 	margin-top: 10px;
-	background-color: #b17a5c;
+	background-color: #c8a18c;
 	width: 40px;
 	height: 40px;;
 	border-radius: 50%; 
@@ -78,7 +78,7 @@
 }
 
 .cuello {
-	background-color: #957a5c;
+	background-color: #b4907e;
 	width: 70px;
 	height: 120px;
 	margin: -25px 0 0 -28px;
@@ -112,7 +112,7 @@
 	height: 0;
 	border-width: 30px 60px 25px 0;
 	border-style: solid;
-	border-color: transparent #957a5c transparent transparent;
+	border-color: transparent #b4907e transparent transparent;
 	transform: rotateZ(-90deg) skew(-15deg);
 	border-radius: 5px;
 	margin: -74px 11.5px 0 0;
@@ -154,7 +154,7 @@
 	height: 27px;
 	border-radius: 50%;
 	z-index: 12;
-	border-top: 10px solid #957a5c;
+	border-top: 10px solid #b4907e;
 	margin:  -70px -50px 0 0;
 	transform: rotate(-5deg);
 }
@@ -169,9 +169,9 @@
 	width:  45px;
 	height: 3px;
 	border-width:  7px 0 7px 0;
-	border-color:  red transparent tomato transparent;
+	border-color:  #ef4949 transparent #F37878 transparent;
 	border-style: solid;
-	background-color: tomato;
+	background-color: #F37878;
 	border-radius: 50%;
 	z-index: 12;
 	margin: 50px -85px 0 0;
@@ -182,7 +182,7 @@
 	width: 15px;
 	height: 15px;
 	background-color: transparent;
-	border-left: 3px solid #857a5c;
+	border-left: 3px solid #8c7062;
 	border-radius: 50%;
 	z-index: 12;
 	margin: -45px -103px 0 0;
@@ -248,18 +248,18 @@
 .oreja {
 	width: 25px;
 	height: 40px;
-	background-color: #b17a5c;
-	border-left: 1px solid  #857a5c;
+	background-color: #c8a18c;
+	border-left: 1px solid  #8c7062;
 	border-radius: 50%;
 	z-index: 20;
 	margin: -279px 80px 0 0;
-	box-shadow: inset 6px -12px 0 -10px #857a5c;
+	box-shadow: inset 6px -12px 0 -10px #8c7062;
 }
 
 .oreja.dos {
 	margin: -48px 75px 0 0;
 	border-left: none;
-	border-right: 1px solid  #857a5c;
+	border-right: 1px solid  #8c7062;
 	box-shadow: none;
 	transform: scale(0.7) rotate(-25deg);
 }
@@ -267,7 +267,7 @@
 .oreja.lobulo {
 	margin: -12px 77px 0 0;
 	border: none;
-	border: solid #857a5c;
+	border: solid #8c7062;
 	border-width:  0 0 0 5px;
 	transform: scale(0.28) rotate(-35deg);
 }
